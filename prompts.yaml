@@ -1,0 +1,56 @@
+
+
+## We can choose diffrent prompt witch just few click's with out going down in code
+
+prompt_template: |
+  Summarize the following paper meta-review in a concise and informative manner:
+  Meta-Review: {meta_review}
+  Summary:
+# prompt_template_1: |
+#   Please summarize the following text in a clear and concise manner:
+
+#   Text: {input_text}
+
+#   Summary:
+
+# prompt_template_2: |
+#   Provide a brief summary of the text below, highlighting the key points:
+
+#   Text: {input_text}
+
+#   Summary:
+
+# prompt_template_3: |
+#   Create a short summary for the following text, focusing on the main ideas:
+
+#   Text: {input_text}
+
+#   Summary:
+
+# prompt_template_4: |
+#   Summarize the text provided, ensuring to capture the essential information:
+
+#   Text: {input_text}
+
+#   Summary:
+
+# prompt_template_5: |
+#   Condense the following text into a brief summary, emphasizing the most important details:
+
+#   Text: {input_text}
+
+#   Summary:
+
+# prompt_template_6: |
+#   Generate a concise summary of the text below, including all critical aspects:
+
+#   Text: {input_text}
+
+#   Summary:
+
+# prompt_template_7: |
+#   Write a summary of the following text, making it easy to understand:
+
+#   Text: {input_text}
+
+#   Summary:
