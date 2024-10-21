@@ -1,4 +1,4 @@
-model_name: "facebook/bart-large-cnn"
+model_name: "google/mt5-base"
 output_dir: "./results"
 logging_dir: "./logs"
 num_train_epochs: 3
