@@ -90,3 +90,6 @@ target/
 .mypy_cache/
 .venv/script
 venv
+notebooks/*.csv
+
+/models/
