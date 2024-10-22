@@ -45,11 +45,12 @@ class SummaryPipeline():
             raise CustomException(f"Error generating summary: {e}", sys)
 
 # Example usage with a sample meta-review (unit testing)
-if __name__ == "__main__":
-    model_path = 'D:\\LLUMO-AI-ASSESMENT\\models\\mart'
-    prompt_path = 'DD:\LLUMO-AI-ASSESMENT\prompts.yaml'  # Adjust path as necessary
-    summary_pipeline = SummaryPipeline(model_dir=model_path, prompt_file=prompt_path)
+# if __name__ == "__main__":
+#     # model_path = 'D:\\LLUMO-AI-ASSESMENT\\models\\mart'
+#     model_path = 'facebook/bart-large-cnn'
+#     prompt_path = 'D:\LLUMO-AI-ASSESMENT\prompts.yaml'  # Adjust path as necessary
+#     summary_pipeline = SummaryPipeline(model_dir=model_path, prompt_file=prompt_path)
 
-    meta_review = "The paper explores new neural network architectures for image classification but lacks proper evaluation on diverse datasets, making it hard to generalize the results."
-    summary = summary_pipeline.generate_summary(meta_review)
-    print("Generated Summary:", summary)
+#     meta_review = "The paper explores new neural network architectures for image classification but lacks proper evaluation on diverse datasets, making it hard to generalize the results."
+#     summary = summary_pipeline.generate_summary(meta_review)
+#     print("Generated Summary:", summary)
